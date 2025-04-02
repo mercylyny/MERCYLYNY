@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our car rental options for unforgettable safari experiences. Rent a 4x4 vehicle and discover the wild.">
+    <title>Safari Car Rental Uganda</title>
+
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+
+        /* Header */
+        header {
+            background-color: black;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 999;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+        }
+
+        header .logo h1 {
+            margin-left: 20px;
+            font-size: 1.5em;
+            color: white;
+        }
+
+        header nav ul {
+            list-style: none;
+            display: flex;
+            gap: 10px;
+            margin-right: 15px;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: normal;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+        header nav ul li a:hover {
+            background-color: #f4511e;
+        }
+
+        header nav ul li a.active {
+            background-color: #f4511e;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url('images/offroad\ pr.jpeg') no-repeat center center/cover;
+            color: black;
+            text-align: center;
+            padding: 120px 40px;
+        }
+
+        .hero-content h1 {
+            font-size: 2.5rem;
+            color: #f4511e;
+        }
+
+        .hero-content p {
+            font-size: 1.2rem;
+            color: white;
+        }
+
+        .btn-primary {
+            background-color: white;
+            color: #f4511e;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            border: 2px solid #f4511e;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #f4511e;
+            color: white;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        /* Package Grid Layout */
+        .package-grid,
+        .vehicle-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .package-item,
+        .vehicle-item {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 20px;
+            width: 400px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .package-item img,
+        .vehicle-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        /* Testimonials Section */
+        blockquote {
+            font-style: italic;
+            background-color: #f0f0f0;
+            border-left: 5px solid #f4511e;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: rgb(2, 2, 14);
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        footer ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 5px;
+            padding: 0;
+        }
+        footer ul li {
+            margin: 0;
+        }
+        footer ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        footer ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    
+    <header>
+        <div class="logo">
+            <h1>Car Rental Uganda</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rentals.html">Rentals</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="fleet.html">Fleet</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="booking.html">Bookings</a></li>
+                <li><a href="safaris.html">Safaris</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Explore Safari Adventures with Car Rental Uganda</h1>
+            <p>Embark on thrilling safari experiences with our 4x4 rental cars, designed for comfort and safety. Ready for an unforgettable journey?</p>
+            <a href="#safari-packages" class="btn-primary">Discover Safari Packages</a>
+        </div>
+    </section>
+
+    <!-- Safari Packages Section -->
+    <section id="safari-packages">
+        <h2>Our Safari Packages</h2>
+        <div class="package-grid">
+            <div class="package-item">
+                <img src="images/queen enp.jpeg" alt="Serengeti Safari">
+                <h3>1-Day Safari at Queen Elizabeth National Park</h3>
+                <p>Includes 4x4 Land Cruiser, guide, and wildlife tour.</p>
+                <p><strong>Price: Sh.700k per person</strong></p>
+                <a href="booking.html" class="btn-primary">Book Now</a>
+            </div> 
+            <div class="package-item">
+                <img src="images/mrchison falls.jpeg" alt="Maasai Mara Safari">
+                <h3>3-Day Safari at murchison falls National Park</h3>
+                <p>Includes a toyota Hiace Supercustom, accommodation, and guided tour.</p>
+                <p><strong>Price:Shs. 1M  per person</strong></p>
+                <a href="booking.html" class="btn-primary">Book Now</a>
+            </div>
+
+            <div class="package-item">
+                <img src="images/landcruiser in Kidepo.jpeg" alt="Serengeti Safari">
+                <h3>1-Day Safari at Kidepo Valley National Park</h3>
+                <p>Includes 4x4 Land Cruiser, guide, and wildlife tour.</p>
+                <p><strong>Price: Shs. 1.5M per person</strong></p>
+                <a href="booking.html" class="btn-primary">Book Now</a>
+            </div>
+            <div class="package-item">
+                <img src="images/jeep n Bwindi.jpeg" alt="Maasai Mara Safari">
+                <h3>3-Day Bwindi impenetrable National Park</h3>
+                <p>Includes luxury Jeep Wrangler, accommodation, and guided tour.</p>
+                <p><strong>Price: Shs. 2M per person</strong></p>
+                <a href="booking.html" class="btn-primary">Book Now</a>
+        </div>
+    </section>
+
+    <!-- Vehicle Options Section -->
+    <section>
+        <h2>Choose Your Safari Vehicle</h2>
+        <div class="vehicle-grid">
+            <div class="vehicle-item">
+                <img src="images/images (45).jpeg" alt="4x4 Land Cruiser">
+                <h3>4x4 Land Cruiser</h3>
+                <p>Perfect for off-road adventures with a roof tent.</p>
+            </div>
+            <div class="vehicle-item">
+                <img src="images/mrchison falls.jpeg" alt="Jeep Wrangler">
+                <h3>Toyota Hiace Supercustom</h3>
+                <p>Perfect for off-road adventures with an open roof for wildlife viewing.</p>
+            </div>
+
+            <div class="vehicle-item">
+                <img src="images/images (47).jpeg" alt="4x4 Land Cruiser">
+                <h3>4x4 Camping Van</h3>
+                <p>Perfect for off-road  long term adventures with a camper trailer and truck.</p>
+            </div>
+            <div class="vehicle-item">
+                <img src="images/jeep.jpeg" alt="Jeep Wrangler">
+                <h3>Jeep Wrangler</h3>
+                <p>Luxury off-road experience with superior comfort.</p>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Car Rental Uganda | All Rights Reserved</p>
+            <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,66 @@
+/*general styles*/
+body{
+    font-family: Arial,  sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #111;
+    color: #fff;
+    text-align: center;
+
+}
+.nav-style{
+    display: flex;
+    text-align: center;
+
+
+}
+nav ul li:hover{
+    color: red;
+    cursor: pointer;
+
+}
+/*hero section*/
+.hero{
+    background: url()center/cover no-repeat;
+    height:90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero-content h1{
+    font-size: 3rem;
+    margin: 0;
+}
+.hero-content p{
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.music{
+    padding: 40px 20px;
+
+}
+.music img{
+    width: 200px;
+    border-radius:10px;
+    
+}
+.video iframe{
+    width:80%
+    max-width:80px;
+    border-radius:10px;
+}
+.footer{
+    background: #222;
+    padding: 20px;
+    margin-top: 20px;
+}

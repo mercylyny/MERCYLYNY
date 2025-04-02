@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .button{
+            background-color: red;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 5px;
+        }
+.contet{
+    text-align: center;
+            margin-bottom: 20px;
+            
+        }
+        .content h1{
+            color :white;
+        } 
+.more{
+    width: 90%;
+            max-width: 700px; /* Make the form smaller */
+            margin: 100px auto 30px; /* Adjust margin for proper spacing */
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            display: grid;
+            grid-template-columns: repeat(2 , 1fr);
+            gap: 10px;
+            
+
+}
+body{
+    background-color: brown;
+    background-image:pexels-pixabay-2 36380.jpg ;
+}
+
+.more h1{
+    color: white;
+    padding: 10px 100px;
+    text-align: center;
+}
+.content h2{
+    color: white;
+    text-align: left;
+}
+p{
+    background-color: blue;
+    color: bisque;
+}
+         
+        
+        .button:hover{
+            background-color:blue;
+        }
+        form{
+            padding:50px 300px;
+            background-color:blueviolet;
+            border-top-left-radius: 10px 30px;
+            width:0% ;
+        }
+    </style>
+</head>
+<body>
+<div class="more">
+        <div class="content">
+          <h2>Personal details</h2> 
+          <p>We prrovide more healthy services <br>To patients at different levels  .
+             Both new patients and the old ones</p> 
+        </div>
+        <div class="form">   
+    <h1>Fill the form above</h1>
+    
+    <form>
+        <input type="text"placeholder="Full name"required><br>
+        <input type="text"placeholder="Date Of Birth"required><br>
+       <input type ="text"placeholder="Email"required><br>
+       <input type="text"placeholder="Tel no."required><br>
+       <h1>patient details</h1>
+       <input type="date"placeholder="arrival-up Date"required><br>
+       <input type="time"placeholder="arrival-up Time"requirred><br>
+       <input type="location"placeholder="location"required><br>
+       <input type="text"placeholder="disease"required><br>
+       <select name="case" required>
+        <option value="disabled selected">case</option>
+        <option value="new">new</option>
+        <option value="on medication">on medication</option><hr>
+        
+
+    </select><br><br>
+    <h1>Gender</h1>
+    <label><input type ="radio"required>male</label>
+   <label> <input type="radio"required>female</label><br>
+
+    </form>
+    </div>
+</div>
+    <button class="button">submit</button>
+</body>
+</html>

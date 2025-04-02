@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Car Rental Uganda - Fleet</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 auto;
+        }
+
+        /* Header */
+        header {
+            
+            background-color: black;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 999;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+        }
+
+        header .logo h1 {
+            margin-left: 20px;
+            font-size: 1.5em;
+            color: white;
+        }
+
+        header nav ul {
+            list-style: none;
+            display: flex;
+            gap: 10px;
+            margin-right: 15px;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: normal;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+        header nav ul li a:hover {
+            background-color: red;
+        }
+
+        header nav ul li a.active {
+            background-color: red;
+        }
+
+        /* Fleet Section */
+        .fleet {
+            background: url('images/images (34).jpeg') no-repeat center center/cover;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .fleet-item {
+            background: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            width: 30%;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .fleet-item img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        .fleet-item h3 {
+            margin: 10px;
+            font-size: 24px;
+        }
+        .fleet-item p {
+            margin: 10px;
+            font-size: 16px;
+            color: #555;
+        }
+        .fleet-item .cta-btn {
+            background-color: red;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 5px;
+        }
+        .fleet-item .cta-btn:hover {
+            background-color: red;
+        }
+        .fleet-item:hover {
+            transform: translateY(-10px);
+        }
+
+        /* Footer */
+        footer {
+            background-color: rgb(5, 5, 5);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        footer ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 10px;
+            padding: 0;
+        }
+        footer ul li {
+            margin: 0;
+        }
+        footer ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        footer ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>Car Rental Uganda</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rentals.html">Rentals</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="fleet.html">Fleet</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="booking.html">Bookings</a></li>
+                <li><a href="safaris.html">Safaris</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Fleet Section -->
+    <section class="fleet">
+        <div class="fleet-item">
+            <img src="images/road sport suv.jpeg" alt="Car 1">
+            <h3>SUV - Roadsport</h3>
+            <p>Perfect for your long trips and safaris, with plenty of space and comfort.</p>
+            <button class="cta-btn" onclick="window.location.href='booking.html'">Book Now</button>
+        </div>
+        <div class="fleet-item">
+            <img src="images/luxury sedan.jpeg" alt="Car 2">
+            <h3>Sedan - Luxury</h3>
+            <p>Experience ultimate luxury and smooth drive on your travels.</p>
+            <button class="cta-btn" onclick="window.location.href='booking.html'">Book Now</button>
+        </div>
+        <div class="fleet-item">
+            <img src="images/fielders.jpeg" alt="Car 3">
+            <h3>Compact</h3>
+            <p>Affordable and fuel-efficient for your everyday commuting needs.</p>
+            <button class="cta-btn" onclick="window.location.href='booking.html'">Book Now</button>
+        </div>
+
+        <div class="fleet-item">
+            <img src="images/off road suv1.jpeg" alt="Car 1">
+            <h3>SUV - Off road</h3>
+            <p>Perfect for your long trips and safaris, with plenty of space and comfort.</p>
+            <button class="cta-btn" onclick="window.location.href='booings.html'">Book Now</button>
+        </div>
+        <div class="fleet-item">
+            <img src="images/7 seater.jpeg" alt="Car 2">
+            <h3> Compact Estate Wagon- Ordinary</h3>
+            <p>Experience ultimate luxury and smooth drive on your travels.</p>
+            <button class="cta-btn" onclick="window.location.href='booking.html'">Book Now</button>
+        </div>
+        <div class="fleet-item">
+            <img src="images/compact hutchbacks.jpeg" alt="Car 3">
+            <h3>Compact Car - Hatchback</h3>
+            <p>Affordable and fuel-efficient for your everyday commuting needs.</p>
+            <button class="cta-btn" onclick="window.location.href='booking.html'">Book Now</button>
+        </div>
+
+        <div class="fleet-item">
+            <img src="images/images (48).jpeg" alt="Car 1">
+            <h3>RVs - Off road</h3>
+            <p>Perfect for your long trips and safaris, with plenty of space and comfort.</p>
+            <button class="cta-btn" onclick="window.location.href='booking.html'">Book Now</button>
+        </div>
+        <div class="fleet-item">
+            <img src="images/ordinary 2.jpeg" alt="Car 2">
+            <h3> Sedan - Ordinary</h3>
+            <p>Affordable and fuel-efficient for your everyday commuting needs.</p>
+            
+            <button class="cta-btn" onclick="window.location.href='booking.html'">Book Now</button>
+            
+        </div>
+        <div class="fleet-item">
+            <img src="images/camper 1.jpeg" alt="Car 3">
+            <h3>Camper Vans</h3>
+            <p>Affordable and fuel fuel-efficient with off road capabilities for adventure.</p>
+            <button class="cta-btn" onclick="window.location.href='booking.html'">Book Now</button>
+        </div>
+
+        
+
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Car Rental Uganda | All Rights Reserved</p>
+            <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
